@@ -23,13 +23,13 @@ Route::post('/login', function (Request $request) {
 Route::get('/produk', function () {
  $produk = [
  ['id' => 1, 'nama' => 'Laptop ASUS', 'harga' => 'Rp 8.500.000', 'foto' =>
-'images/produk_laptop.jpg', 'deskripsi' => 'Laptop ASUS dengan prosesor Intel i7
+'images/gambar4.jpg', 'deskripsi' => 'Laptop ASUS dengan prosesor Intel i7
 dan RAM 16GB.'],
  ['id' => 2, 'nama' => 'Smartphone Samsung', 'harga' => 'Rp 4.200.000', 'foto' =>
-'images/produk_hp.jpg', 'deskripsi' => 'Smartphone Samsung layar AMOLED 6.5
+'images/gambar5.jpg', 'deskripsi' => 'Smartphone Samsung layar AMOLED 6.5
 inci dengan kamera 48MP.'],
  ['id' => 3, 'nama' => 'Kamera Canon', 'harga' => 'Rp 6.750.000', 'foto' =>
-'images/produk_kamera.jpg', 'deskripsi' => 'Kamera Canon DSLR dengan lensa kit
+'images/gambar6.jpg', 'deskripsi' => 'Kamera Canon DSLR dengan lensa kit
 18-55mm.'],
  ];
  return view('produk', compact('produk'));
